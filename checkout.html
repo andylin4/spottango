@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Renewed</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="logo">RENEWED</div>
+
+        <nav class="nav-links">
+          <a href="index.html">Continue Shopping</a>
+        </nav>
+
+        <a class="nav-cta" href="index.html">Back to Store</a>
+      </div>
+    </header>
+
+    <main class="container checkout-layout">
+      <section class="checkout-form-section">
+        <div class="section-card">
+          <h1 class="checkout-title">Checkout</h1>
+          <p class="checkout-subtitle">
+            Enter your details below to complete your order.
+          </p>
+
+          <form class="checkout-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" placeholder="Andy" />
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" placeholder="Lin" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Street Address</label>
+              <input id="address" type="text" placeholder="123 Forbes Ave" />
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="city">City</label>
+                <input id="city" type="text" placeholder="Pittsburgh" />
+              </div>
+
+              <div class="form-group">
+                <label for="state">State</label>
+                <input id="state" type="text" placeholder="PA" />
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="zip">ZIP Code</label>
+                <input id="zip" type="text" placeholder="15213" />
+              </div>
+
+              <div class="form-group">
+                <label for="country">Country</label>
+                <input id="country" type="text" placeholder="United States" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="card">Card Number</label>
+              <input id="card" type="text" placeholder="1234 5678 9012 3456" />
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="exp">Expiration</label>
+                <input id="exp" type="text" placeholder="MM/YY" />
+              </div>
+
+              <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input id="cvv" type="text" placeholder="123" />
+              </div>
+            </div>
+
+            <button type="button" class="place-order-button">
+              Place Order
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <aside class="checkout-summary-section">
+        <div class="section-card">
+          <h2>Order Summary</h2>
+          <div id="checkoutItems" class="checkout-items"></div>
+
+          <div class="cart-summary checkout-totals">
+            <div class="summary-row">
+              <span>Subtotal</span>
+              <span id="checkoutSubtotal">$0.00</span>
+            </div>
+            <div class="summary-row">
+              <span>Shipping</span>
+              <span id="checkoutShipping">$0.00</span>
+            </div>
+            <div class="summary-row">
+              <span>Tax</span>
+              <span id="checkoutTax">$0.00</span>
+            </div>
+            <div class="summary-row total">
+              <span>Total</span>
+              <span id="checkoutTotal">$0.00</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>
