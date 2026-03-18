@@ -1,0 +1,410 @@
+[
+  {
+    "id": "661d36bd-2663-411a-8532-b12264bfbe56",
+    "name": "MacBook Air M2",
+    "group": "Laptop",
+    "msrp": 241.87,
+    "price": 217.22,
+    "status": "Available"
+  },
+  {
+    "id": "be2cc3dc-87fd-4695-829d-7710d5097d8e",
+    "name": "MacBook Pro 16-inch",
+    "group": "Laptop",
+    "msrp": 1229,
+    "price": 919.75,
+    "status": "Available"
+  },
+  {
+    "id": "97383f40-a2e9-479d-abbb-ffeb63924d69",
+    "name": "Dell XPS 13",
+    "group": "Laptop",
+    "msrp": 2767.76,
+    "price": 2675.9,
+    "status": "Available"
+  },
+  {
+    "id": "7ea271dc-e1f9-4ddf-a1b8-e7c7e7aab18d",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "group": "Laptop",
+    "msrp": 1328.28,
+    "price": 1238.68,
+    "status": "Available"
+  },
+  {
+    "id": "dffaa87d-3a96-4968-a6d3-90dcb6db796c",
+    "name": "Microsoft Surface Laptop 5",
+    "group": "Laptop",
+    "msrp": 1396.82,
+    "price": 1347.91,
+    "status": "Available"
+  },
+  {
+    "id": "ac6fb7aa-c577-4f45-a0b0-47832c47659c",
+    "name": "HP Spectre x360",
+    "group": "Laptop",
+    "msrp": 2278.09,
+    "price": 1663.19,
+    "status": "Available"
+  },
+  {
+    "id": "148fcfce-542c-4f62-97e5-72fe98a07db3",
+    "name": "ASUS ROG Zephyrus G14",
+    "group": "Laptop",
+    "msrp": 1300.6,
+    "price": 961.13,
+    "status": "Available"
+  },
+  {
+    "id": "6ae77789-6be3-4e43-81ab-9fe56c20ba7b",
+    "name": "Razer Blade 15",
+    "group": "Laptop",
+    "msrp": 193.68,
+    "price": 138.33,
+    "status": "Available"
+  },
+  {
+    "id": "1f5ca311-4963-4213-9999-bc4b3f90d22f",
+    "name": "Samsung Galaxy Book3 Ultra",
+    "group": "Laptop",
+    "msrp": 861.86,
+    "price": 636.86,
+    "status": "Unavailable"
+  },
+  {
+    "id": "a4c0cecc-fdac-4f0a-b1bf-b4fed9315ffa",
+    "name": "Acer Swift 5",
+    "group": "Laptop",
+    "msrp": 2515.14,
+    "price": 2055.02,
+    "status": "Available"
+  },
+  {
+    "id": "278936da-f881-42ff-ba31-ed69b76f87ac",
+    "name": "LG Gram 17",
+    "group": "Laptop",
+    "msrp": 1276.81,
+    "price": 951.44,
+    "status": "Unavailable"
+  },
+  {
+    "id": "74a456a2-3b67-4619-be52-51d3215eb05c",
+    "name": "MSI Stealth 16 Studio",
+    "group": "Laptop",
+    "msrp": 2885.05,
+    "price": 2765.21,
+    "status": "Available"
+  },
+  {
+    "id": "d061e5bd-122b-4aa6-9202-820c0326bb86",
+    "name": "iPad Pro 12.9-inch",
+    "group": "Tablet",
+    "msrp": 2893.56,
+    "price": 2529.7,
+    "status": "Available"
+  },
+  {
+    "id": "1fa75711-34d5-4808-a75a-21b6fc49e980",
+    "name": "iPad Air 5th Gen",
+    "group": "Tablet",
+    "msrp": 2737.55,
+    "price": 2483.8,
+    "status": "Available"
+  },
+  {
+    "id": "6aa25369-8515-4432-bc8c-bf13d886da77",
+    "name": "iPad Mini 6",
+    "group": "Tablet",
+    "msrp": 1424.17,
+    "price": 1011.88,
+    "status": "Available"
+  },
+  {
+    "id": "48e5ec61-e870-4dab-8ded-5ad68dedb3ec",
+    "name": "Samsung Galaxy Tab S9",
+    "group": "Tablet",
+    "msrp": 2384.62,
+    "price": 2246.2,
+    "status": "Unavailable"
+  },
+  {
+    "id": "1cdb06ed-79d6-4d6d-91b0-588a40455a34",
+    "name": "Microsoft Surface Pro 9",
+    "group": "Tablet",
+    "msrp": 776.97,
+    "price": 773.46,
+    "status": "Available"
+  },
+  {
+    "id": "5079372c-5c94-42b4-bb79-40762044bae9",
+    "name": "Lenovo Tab P12 Pro",
+    "group": "Tablet",
+    "msrp": 207,
+    "price": 145.38,
+    "status": "Available"
+  },
+  {
+    "id": "4f77be7d-85af-433f-8de2-871834b5e77d",
+    "name": "Amazon Fire HD 10",
+    "group": "Tablet",
+    "msrp": 1705.09,
+    "price": 1623.02,
+    "status": "Available"
+  },
+  {
+    "id": "4fdae0a1-bca7-478d-9c88-81bd0990c8be",
+    "name": "ASUS ROG Flow Z13",
+    "group": "Tablet",
+    "msrp": 445.88,
+    "price": 321.42,
+    "status": "Available"
+  },
+  {
+    "id": "bf77d418-ef0a-4a41-b868-6360d935b483",
+    "name": "Google Pixel Tablet",
+    "group": "Tablet",
+    "msrp": 2015.12,
+    "price": 1690.78,
+    "status": "Available"
+  },
+  {
+    "id": "6ea28e0a-baaa-424a-a5ff-ba8e5910aea1",
+    "name": "Huawei MatePad Pro",
+    "group": "Tablet",
+    "msrp": 563.22,
+    "price": 414.65,
+    "status": "Available"
+  },
+  {
+    "id": "214aaffb-2230-49f8-a18b-9e7b19e01bfd",
+    "name": "iPhone 15 Pro Max",
+    "group": "Mobile",
+    "msrp": 1974.54,
+    "price": 1822.88,
+    "status": "Available"
+  },
+  {
+    "id": "18ef1438-a1ab-49c1-ab8b-34f08ac1dcc9",
+    "name": "iPhone 14",
+    "group": "Mobile",
+    "msrp": 985.35,
+    "price": 751.33,
+    "status": "Available"
+  },
+  {
+    "id": "a1d3fc0c-d528-4ee4-8337-a3e078b3d89b",
+    "name": "Samsung Galaxy S24 Ultra",
+    "group": "Mobile",
+    "msrp": 2849.25,
+    "price": 2642.52,
+    "status": "Available"
+  },
+  {
+    "id": "418fce6f-4ffb-44bd-83a7-4dd8656ba916",
+    "name": "Samsung Galaxy Z Fold5",
+    "group": "Mobile",
+    "msrp": 1381.21,
+    "price": 1069.63,
+    "status": "Available"
+  },
+  {
+    "id": "676f3061-e0f1-443b-a5e7-fc867482b75f",
+    "name": "Google Pixel 8 Pro",
+    "group": "Mobile",
+    "msrp": 1091.13,
+    "price": 987.21,
+    "status": "Available"
+  },
+  {
+    "id": "2a4e477c-88b6-42d3-a221-ea2b3642d883",
+    "name": "OnePlus 11",
+    "group": "Mobile",
+    "msrp": 1909.23,
+    "price": 1752.87,
+    "status": "Unavailable"
+  },
+  {
+    "id": "124d58d6-64a5-4ed4-95a2-9ada82fab3dd",
+    "name": "Sony Xperia 1 V",
+    "group": "Mobile",
+    "msrp": 732.77,
+    "price": 628.43,
+    "status": "Available"
+  },
+  {
+    "id": "21ca1e68-42e3-4c9a-b03c-00a77a3af0d1",
+    "name": "Asus ROG Phone 7",
+    "group": "Mobile",
+    "msrp": 2558.25,
+    "price": 2301.65,
+    "status": "Available"
+  },
+  {
+    "id": "a6292248-c8aa-435e-9057-670ceec68bdf",
+    "name": "Nokia XR21",
+    "group": "Mobile",
+    "msrp": 2594.95,
+    "price": 1832.5,
+    "status": "Available"
+  },
+  {
+    "id": "d0b3d2a9-cb4a-408f-8424-15afee4822fd",
+    "name": "Motorola Edge 40 Pro",
+    "group": "Mobile",
+    "msrp": 2696.11,
+    "price": 2589.37,
+    "status": "Available"
+  },
+  {
+    "id": "4b805d5d-5211-4724-9228-f3d15b4df6d4",
+    "name": "Apple Magic Mouse",
+    "group": "Accessory",
+    "msrp": 1774.25,
+    "price": 1561.43,
+    "status": "Available"
+  },
+  {
+    "id": "3b72d4d4-cab8-47e5-9438-4ecffd1be31f",
+    "name": "Apple Magic Keyboard",
+    "group": "Accessory",
+    "msrp": 1406.42,
+    "price": 1120.7,
+    "status": "Available"
+  },
+  {
+    "id": "0a4a1408-97ba-4109-82a5-ff98ef2604a0",
+    "name": "Logitech MX Master 3",
+    "group": "Accessory",
+    "msrp": 405.08,
+    "price": 355.42,
+    "status": "Available"
+  },
+  {
+    "id": "e0bb5547-f54b-43fb-ab25-f13b11bbce3e",
+    "name": "Logitech G Pro Wireless",
+    "group": "Accessory",
+    "msrp": 1204.6,
+    "price": 1064.42,
+    "status": "Unavailable"
+  },
+  {
+    "id": "601246a2-4ba7-42a1-9ad8-de9ec9f854cc",
+    "name": "Razer Huntsman Mini",
+    "group": "Accessory",
+    "msrp": 1346.5,
+    "price": 1325.42,
+    "status": "Unavailable"
+  },
+  {
+    "id": "c8544273-a4c1-4e1b-93d0-4080261ff0f5",
+    "name": "Corsair K95 RGB Platinum",
+    "group": "Accessory",
+    "msrp": 346.84,
+    "price": 342.23,
+    "status": "Unavailable"
+  },
+  {
+    "id": "704b014e-3336-4bd0-afcf-b01944662af4",
+    "name": "SteelSeries Arctis Pro",
+    "group": "Accessory",
+    "msrp": 1736.24,
+    "price": 1668.16,
+    "status": "Available"
+  },
+  {
+    "id": "a6b7ff0a-5b06-4f73-8301-3a9c1f14a142",
+    "name": "HyperX Cloud Alpha",
+    "group": "Accessory",
+    "msrp": 2581.69,
+    "price": 2440.72,
+    "status": "Available"
+  },
+  {
+    "id": "eeb4bdd0-a515-47b3-bd2f-e5121789eda5",
+    "name": "Samsung T7 Portable SSD",
+    "group": "Accessory",
+    "msrp": 2040.49,
+    "price": 1478.28,
+    "status": "Available"
+  },
+  {
+    "id": "3530ad26-210c-4d51-9104-1be2e72bb26a",
+    "name": "SanDisk Extreme Pro SSD",
+    "group": "Accessory",
+    "msrp": 2593.59,
+    "price": 1859.16,
+    "status": "Available"
+  },
+  {
+    "id": "233c5f92-aeff-405f-bac4-0ec520d3285c",
+    "name": "Anker USB-C Hub",
+    "group": "Accessory",
+    "msrp": 2862.79,
+    "price": 2176.57,
+    "status": "Unavailable"
+  },
+  {
+    "id": "20ae7675-b8cd-45d9-9e1a-d6fd51e5ea2a",
+    "name": "Belkin BoostCharge Pro",
+    "group": "Accessory",
+    "msrp": 2064.73,
+    "price": 1665.46,
+    "status": "Available"
+  },
+  {
+    "id": "e7b13c7f-7100-4235-9eaf-528555d8eee8",
+    "name": "Apple AirPods Pro",
+    "group": "Accessory",
+    "msrp": 985.68,
+    "price": 691.76,
+    "status": "Available"
+  },
+  {
+    "id": "b28b1bc4-ae02-4285-8fb7-74924b4e1b12",
+    "name": "Sony WH-1000XM5",
+    "group": "Accessory",
+    "msrp": 2262.56,
+    "price": 1691.97,
+    "status": "Unavailable"
+  },
+  {
+    "id": "9ce9f2af-d815-49a5-99d6-8a0dff7349f8",
+    "name": "Bose QuietComfort Ultra",
+    "group": "Accessory",
+    "msrp": 262.67,
+    "price": 184.11,
+    "status": "Available"
+  },
+  {
+    "id": "9585cc1f-4bfc-466a-9f15-e8091250acde",
+    "name": "Google Pixel Buds Pro",
+    "group": "Accessory",
+    "msrp": 891.17,
+    "price": 713.52,
+    "status": "Unavailable"
+  },
+  {
+    "id": "d211d73b-48e6-4ec1-85cf-142ffc72e099",
+    "name": "Apple 20W USB-C Power Adapter",
+    "group": "Accessory",
+    "msrp": 150.02,
+    "price": 123.67,
+    "status": "Available"
+  },
+  {
+    "id": "132d7c96-a204-4568-8b7a-5c232cae8fed",
+    "name": "Samsung Wireless Charger Duo",
+    "group": "Accessory",
+    "msrp": 1982.22,
+    "price": 1626.75,
+    "status": "Available"
+  },
+  {
+    "id": "6db6954e-e837-4d1a-b016-91c4be3b7fc0",
+    "name": "Dell WD19TB Docking Station",
+    "group": "Accessory",
+    "msrp": 1572.58,
+    "price": 1432.75,
+    "status": "Available"
+  }
+]

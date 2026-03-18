@@ -19,7 +19,7 @@ function renderCheckout() {
   if (!cart.length) {
     checkoutItemsEl.innerHTML = `
       <div class="empty-cart">
-        Your bag is empty. <a href="index.html">Return to the store</a>.
+        Your bag is empty. <a href="home.html">Return to the store</a>.
       </div>
     `;
     subtotalEl.textContent = "$0.00";

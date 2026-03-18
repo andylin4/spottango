@@ -1,5 +1,5 @@
 const API_URL =
-  "https://s3.us-east-1.amazonaws.com/assets.spotandtango/products.json";
+  "products.json";
 
 let products = [];
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -15,10 +15,6 @@ const cartItemsEl = document.getElementById("cartItems");
 const cartCountEl = document.getElementById("cartCount");
 const subtotalEl = document.getElementById("subtotal");
 const cartTotalEl = document.getElementById("cartTotal");
-
-const availableCountEl = document.getElementById("availableCount");
-const soldOutCountEl = document.getElementById("soldOutCount");
-
 function formatMoney(value) {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -127,22 +123,30 @@ function renderProducts() {
     card.className = "product-card";
 
     card.innerHTML = `
-      <div class="product-top">
-        <div class="product-type">${product.group}</div>
-        <div class="product-name">${product.name}</div>
-        <div class="discount-pill">${discount}% off</div>
-      </div>
 
+      <div class="product-top">
+        <div class="product-name">
+          ${product.name}
+        </div>
+      </div>
       <div class="product-meta">
         <div>
-          <div class="price">${formatMoney(product.price)}</div>
-          <div class="msrp">MSRP ${formatMoney(product.msrp)}</div>
+          <div class="price">
+            ${formatMoney(product.price)}
+          </div>
+          <div class="old-price-row">
+            <span class="old-price">
+              ${formatMoney(product.msrp)}
+            </span>
+            <span class="discount-text">
+              ${discount}% off
+            </span>
+          </div>
         </div>
         <div class="stock-badge ${isAvailable ? "available" : "unavailable"}">
           ${isAvailable ? "In Stock" : "Sold Out"}
         </div>
       </div>
-
       <div class="product-footer">
         <div class="in-cart-row">
           <span>In bag</span>
@@ -152,7 +156,7 @@ function renderProducts() {
           ${isAvailable ? "Add to Bag" : "Unavailable"}
         </button>
       </div>
-    `;
+      `;
 
     card.querySelector(".add-button").addEventListener("click", () => {
       addToCart(product);
@@ -229,9 +233,6 @@ async function loadProducts() {
 
     const available = products.filter((p) => p.status === "Available").length;
     const soldOut = products.length - available;
-
-    availableCountEl.textContent = available;
-    soldOutCountEl.textContent = soldOut;
 
     renderProducts();
     renderCart();
